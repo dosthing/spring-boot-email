@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>邮件模板</title>
+</head>
+<body>
+    你好，感谢您注册，这是一封验证邮件，请点击下面的连接完成注册，感谢您的支持。
+    <br/>
+    <a href="#" th:href="@{https://blog.csdn.net/dosthing/article/list/{id}(id=${id})}">点击激活账号</a>
+</body>
+</html>
